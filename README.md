@@ -1,18 +1,8 @@
-## Getting Started
+## Taller de diseño y programación: Abstracciones, interfaces y polimorfismo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A continuación se crea un programa que permita crear al usuario naves espaciales de 4 tipos diferentes. Para dicho fin, se tiene lo siguiente:
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Se crea una clase abstracta llamada Nave y una interfaz llamada IVehiculoEstelar. La clase crearNave se extenderá de la clase abstracta Nave y la clase DatosNave implementará la interfaz IVehiculoEstelar.
+- Se crearon 2 métodos abstractos (public abstract int elegirNave() y public abstract int elegirCombustible()) que permitirán la creación de la nave.
+- El programa tendrá diferentes sobreescrituras y sobrecargas.
+- El programa tendrá una ejecución infinita hasta que el usuario decida terminar el programa.
